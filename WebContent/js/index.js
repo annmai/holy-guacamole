@@ -14,9 +14,9 @@
  * @param resultData jsonObject
  */
 function handleBandsResult(resultData) {
-    console.log("handleBandsResult: populating bands table from resultData");
+    console.log("handleBandsResult: populating artist table from resultData");
 
-    // Populate the star table
+    // Populate the bands table
     // Find the empty table body by id "star_table_body"
     let bandsTableBodyElement = jQuery("#bands_table_body");
 
@@ -28,7 +28,9 @@ function handleBandsResult(resultData) {
         rowHTML += "<tr>";
         rowHTML +=
             "<th>" +
-            // Add a link to single-star.html with id passed with GET url parameter
+            '<img src="img/triad.jpg" class="artist-pic">'
+            +
+            // Add a link to band.html with id passed with GET url parameter
             '<a href="band.html?id=' + resultData[i]['id'] + '">'
             + resultData[i]["name"] +     // display star_name for the link text
             '</a>' +
