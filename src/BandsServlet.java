@@ -1,6 +1,8 @@
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import javax.annotation.Resource;
+import javax.naming.Context;
+import javax.naming.InitialContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,6 +12,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -29,6 +32,24 @@ public class BandsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("application/json"); // Response mime type
+        String query = "SELECT * from bands";
+        executeRequest(query, response);
+
+    }
+    
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        
+    	String sortDirection = request.getParameter("order");
+    	String orderByParam = request.getParameter("orderBy");
+    	String query = "SELECT * from bands order by " + orderByParam +  " " + sortDirection;
+    	executeRequest(query, response);
+        
+        
+    }
+    
+    private void executeRequest(String query, HttpServletResponse response) throws IOException {
+    	
+    	response.setContentType("application/json"); // Response mime type
 
         // Output stream to STDOUT
         PrintWriter out = response.getWriter();
@@ -39,8 +60,6 @@ public class BandsServlet extends HttpServlet {
 
             // Declare our statement
             Statement statement = dbcon.createStatement();
-
-            String query = "SELECT * from bands";
 
             // Perform the query
             ResultSet rs = statement.executeQuery(query);
@@ -70,18 +89,23 @@ public class BandsServlet extends HttpServlet {
             rs.close();
             statement.close();
             dbcon.close();
-        } catch (Exception e) {
+        }
+            
+        catch (Exception e) {
         	
 			// write error message JSON object to output
 			JsonObject jsonObject = new JsonObject();
 			jsonObject.addProperty("errorMessage", e.getMessage());
 			out.write(jsonObject.toString());
+			
+			System.out.println("Error: " + e.getMessage());
+			e.printStackTrace();
 
 			// set response status to 500 (Internal Server Error)
 			response.setStatus(500);
 
         }
+        
         out.close();
-
     }
 }

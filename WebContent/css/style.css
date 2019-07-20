@@ -1,0 +1,198 @@
+body {
+	background-color: #fbfbfb;
+	text-align: center;
+	color: #111111;
+	font-family: Quicksand;
+}
+
+/* ----------------------SIDENAV--------------------------*/
+
+#sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cccccc;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+#nav-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: cccccc;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-item {
+	padding: 5px;
+}
+
+#sidenav .nav-item a {
+	position: relative;
+	top: -5px;
+	left: 10px;
+}
+
+/* unvisited link */
+#sidenav a:link {
+  color: black;
+}
+
+/* visited link */
+#sidenav a:visited {
+  color: black;
+}
+
+/* mouse over link */
+#sidenav a:hover {
+  color: #39A6ED;
+  text-decoration: underline;
+}
+
+/* selected link */
+#sidenav a:active {
+  color: black;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+#heart-vol {
+	width: 140px;
+}
+
+
+/* ----------------------------------------*/
+
+#logo {
+	margin: auto;
+	width: 100%;
+	position: relative;
+	padding-top: 0px;
+	text-align: center;
+	
+}
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 3em;
+	color: #38CCA8;
+}
+
+#avocado {
+	width: 75px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 5px;
+	top: 10px;
+}
+
+/* -----------------TOPNAV-----------------------*/
+
+#top-nav {
+	font-family: VT323;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-decoration: none;
+}
+
+#top-nav a:active {
+	color: #EB8AEB;
+	
+}
+
+#top-nav a:link {
+	color: black;
+}
+
+#top-nav a:visited {
+	color: black;
+
+}
+
+#top-nav a:hover {
+	color: #EB8AEB;
+	
+}
+
+
+
+/* ----------------------------------------*/
+
+#content {
+	margin: auto;
+	width: 80%;
+	padding-top: 50px;
+	padding-left: 200px;
+	position: relative;
+}
+
+.artist-pic {
+	width: 100px;
+	border-radius: 50%;
+}
+
+#content a {
+	position: relative;
+	top: -37px;
+	left: 10px;
+}
+
+/* unvisited link */
+#content a:link {
+  color: black;
+}
+
+/* visited link */
+#content a:visited {
+  color: black;
+}
+
+/* mouse over link */
+#content a:hover {
+  color: #39A6ED;
+  text-decoration: underline;
+}
+
+/* selected link */
+#content a:active {
+  color: black;
+}
+
+.arrow {
+	cursor: pointer;
+}

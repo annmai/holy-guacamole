@@ -1,24 +1,69 @@
-/**
- * This example is following frontend and backend separation.
- *
- * Before this .js is loaded, the html skeleton is created.
- *
- * This .js performs two steps:
- *      1. Use jQuery to talk to backend API to get the json data.
- *      2. Populate the data to correct html elements.
- */
+/************************************************************************
+ * Toggles Arrow and displays artists' in ascending/descending order
+ ***********************************************************************/
+
+function toggleArtist(e) {
+  var arrow = e.getAttribute("data-arrow-type");
+  var text = document.getElementById("arrow1");
+  if (arrow == "up") {
+    text.innerHTML = "&darr; Artist";
+    e.setAttribute("data-arrow-type", "down");
+    
+    // make post request to server
+    doPost("name", "asc");
+    
+  } else {
+	  text.innerHTML = "&uarr; Artist";
+	  e.setAttribute("data-arrow-type", "up");
+	  doPost("name", "desc");
+  }
+}
+
+/****************************************************************************
+ * Toggles Arrow and displays artists' origins in ascending/descending order
+ ****************************************************************************/
+
+function toggleOrigin(e) {
+  var arrow = e.getAttribute("data-arrow-type");
+  var text = document.getElementById("arrow2");
+  if (arrow == "up") {
+    text.innerHTML = "&darr; Origin";
+    e.setAttribute("data-arrow-type", "down");
+    doPost("origin", "asc");
+    
+  } else {
+	  text.innerHTML = "&uarr; Origin";
+	  e.setAttribute("data-arrow-type", "up");
+	  doPost("origin", "desc");
+  }
+}
 
 
-/**
- * Handles the data returned by the API, read the jsonObject and populate data into html elements
+/**************************************************************************
+ * Makes an HTTP Post Request to the backend API
+ **************************************************************************/
+function doPost(orderByParam, sort) {
+	  $.ajax({
+		    url: 'api/bands',
+		    type: 'POST',
+		    data: jQuery.param({ orderBy: orderByParam, order: sort}) ,
+		    contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+		    success: (resultData) => handleBandsResult(resultData)
+		}); 
+}
+
+/**************************************************************************
+ * Handles the data returned by the API, read the jsonObject and populate 
+ * data into html elements
  * @param resultData jsonObject
- */
+ **************************************************************************/
 function handleBandsResult(resultData) {
     console.log("handleBandsResult: populating artist table from resultData");
 
     // Populate the bands table
     // Find the empty table body by id "star_table_body"
     let bandsTableBodyElement = jQuery("#bands_table_body");
+    bandsTableBodyElement.empty();
 
     // Iterate through resultData, no more than 10 entries
     for (let i = 0; i < resultData.length; i++) {
@@ -42,6 +87,7 @@ function handleBandsResult(resultData) {
         bandsTableBodyElement.append(rowHTML);
     }
 }
+
 
 
 
