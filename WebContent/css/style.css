@@ -1,7 +1,7 @@
 body {
-	background-color: #fbfbfb;
+	background-color: #111111;
 	text-align: center;
-	color: #111111;
+	color: #ffffff;
 	font-family: Quicksand;
 }
 
@@ -14,7 +14,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #cccccc;
+  background-color: #232323;
   overflow-x: hidden;
   padding-top: 20px;
   padding-left: 20px;
@@ -28,7 +28,7 @@ body {
   bottom: 0;
   width: 100%;
   background-color: cccccc;
-  color: black;
+  color: white;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
@@ -46,12 +46,12 @@ body {
 
 /* unvisited link */
 #sidenav a:link {
-  color: black;
+  color: white;
 }
 
 /* visited link */
 #sidenav a:visited {
-  color: black;
+  color: white;
 }
 
 /* mouse over link */
@@ -62,7 +62,7 @@ body {
 
 /* selected link */
 #sidenav a:active {
-  color: black;
+  color: white;
 }
 
 .material-icons {
@@ -136,11 +136,11 @@ h1 {
 }
 
 #top-nav a:link {
-	color: black;
+	color: white;
 }
 
 #top-nav a:visited {
-	color: black;
+	color: white;
 
 }
 
@@ -162,8 +162,8 @@ h1 {
 }
 
 .artist-pic {
-	width: 100px;
-	border-radius: 50%;
+	width: 150px;
+	border-radius: 20%;
 }
 
 #content a {
@@ -174,12 +174,12 @@ h1 {
 
 /* unvisited link */
 #content a:link {
-  color: black;
+  color: white;
 }
 
 /* visited link */
 #content a:visited {
-  color: black;
+  color: white;
 }
 
 /* mouse over link */
@@ -190,7 +190,7 @@ h1 {
 
 /* selected link */
 #content a:active {
-  color: black;
+  color: white;
 }
 
 .arrow {

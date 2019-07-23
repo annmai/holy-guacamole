@@ -72,15 +72,15 @@ function handleBandsResult(resultData) {
         let rowHTML = "";
         rowHTML += "<tr>";
         rowHTML +=
-            "<th>" +
-            '<img src="img/triad.jpg" class="artist-pic">'
+            "<td>" +
+            '<img src="img/band-pic/' + resultData[i]["id"] +  '.jpg" class="artist-pic">'
             +
             // Add a link to band.html with id passed with GET url parameter
             '<a href="band.html?id=' + resultData[i]['id'] + '">'
             + resultData[i]["name"] +     // display star_name for the link text
             '</a>' +
-            "</th>";
-        rowHTML += "<th>" + resultData[i]["origin"] + "</th>";
+            "</td>";
+        rowHTML += "<td>" + resultData[i]["origin"] + "</td>";
         rowHTML += "</tr>";
 
         // Append the row created to the table body, which will refresh the page
