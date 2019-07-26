@@ -76,7 +76,7 @@ function handleBandsResult(resultData) {
             '<img src="img/band-pic/' + resultData[i]["id"] +  '.jpg" class="artist-pic">'
             +
             // Add a link to band.html with id passed with GET url parameter
-            '<a href="band.html?id=' + resultData[i]['id'] + '">'
+            '<a href="artist.html?id=' + resultData[i]['id'] + '">'
             + resultData[i]["name"] +     // display star_name for the link text
             '</a>' +
             "</td>";
@@ -100,5 +100,5 @@ jQuery.ajax({
     dataType: "json", // Setting return data type
     method: "GET", // Setting request method
     url: "api/bands", // Setting request url, which is mapped by BandsServlet.java
-    success: (resultData) => handleBandsResult(resultData) // Setting callback function to handle data returned successfully by the BandsServlet
+    success: (resultData) => handleBandsResult(resultData) // Setting callback function to handle data returned successfully by the BandListServlet
 });
