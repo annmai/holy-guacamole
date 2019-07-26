@@ -18,8 +18,8 @@ import java.sql.Statement;
 
 
 // Declaring a WebServlet called BandsServlet, which maps to url "/api/bands"
-@WebServlet(name = "BandsServlet", urlPatterns = "/api/bands")
-public class BandsServlet extends HttpServlet {
+@WebServlet(name = "ArtistListServlet", urlPatterns = "/api/bands")
+public class ArtistListServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     // Create a dataSource which registered in web.xml
