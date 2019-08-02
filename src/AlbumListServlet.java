@@ -17,9 +17,9 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 
-// Declaring a WebServlet called ArtistListServlet, which maps to url "/api/bands"
-@WebServlet(name = "ArtistListServlet", urlPatterns = "/api/bands")
-public class ArtistListServlet extends HttpServlet {
+// Declaring a WebServlet called AlbumListServlet, which maps to url "/api/albums"
+@WebServlet(name = "AlbumListServlet", urlPatterns = "/api/albums")
+public class AlbumListServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     // Create a dataSource which registered in web.xml
@@ -32,17 +32,17 @@ public class ArtistListServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("application/json"); // Response mime type
-        String query = "SELECT * from bands";
+        String query = "SELECT * from albums";
         executeRequest(query, response);
 
     }
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         
-    	String sortDirection = request.getParameter("order");
-    	String orderByParam = request.getParameter("orderBy");
-    	String query = "SELECT * from bands order by " + orderByParam +  " " + sortDirection;
-    	executeRequest(query, response);
+    	//String sortDirection = request.getParameter("order");
+    	//String orderByParam = request.getParameter("orderBy");
+    	//String query = "SELECT * from bands order by " + orderByParam +  " " + sortDirection;
+    	//executeRequest(query, response);
         
         
     }
@@ -69,14 +69,14 @@ public class ArtistListServlet extends HttpServlet {
             // Iterate through each row of rs
             while (rs.next()) {
                 String id = rs.getString("id");
-                String name = rs.getString("name");
-                String origin = rs.getString("origin");
+                String title = rs.getString("title");
+                String artist = rs.getString("artist");
 
                 // Create a JsonObject based on the data we retrieve from rs
                 JsonObject jsonObject = new JsonObject();
                 jsonObject.addProperty("id", id);
-                jsonObject.addProperty("name", name);
-                jsonObject.addProperty("origin", origin);
+                jsonObject.addProperty("title", title);
+                jsonObject.addProperty("artist", artist);
 
                 jsonArray.add(jsonObject);
             }

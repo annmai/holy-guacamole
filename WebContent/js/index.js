@@ -1,3 +1,20 @@
+/****************************************************************************
+ * Toggles like/unlike Favorite Heart 
+ ****************************************************************************/
+
+function toggleFavorite(e) {
+  var heart = e.getAttribute("data-fav-type");
+
+  if (heart == "unliked") {
+    e.innerHTML = "favorite";
+    e.setAttribute("data-fav-type", "like");
+    
+  } else {
+	  e.innerHTML = "favorite_border";
+	  e.setAttribute("data-fav-type", "unliked");
+  }
+}
+
 /************************************************************************
  * Toggles Arrow and displays artists' in ascending/descending order
  ***********************************************************************/
