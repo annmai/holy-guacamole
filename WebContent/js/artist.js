@@ -28,6 +28,11 @@ function getParameterByName(target) {
 function handleArtistResult(resultData) {
     console.log("handleArtistResult: populating albums table from resultData");
 
+    
+    let artistNameHeaderElement = jQuery("#artist-name");
+    artistNameHeaderElement.append(resultData[0]["artist"]);
+    
+    
     // Populate the albums table
     // Find the empty table body by id "star_table_body"
     let albumsTableBodyElement = jQuery("#albums_table_body");
@@ -36,12 +41,13 @@ function handleArtistResult(resultData) {
     // Iterate through resultData, no more than 10 entries
     for (let i = 0; i < resultData.length; i++) {
 
+
         // Concatenate the html tags with resultData jsonObject
         let rowHTML = "";
         rowHTML += "<tr>";
         rowHTML +=
             "<td>" + 
-            "<img id='album-pic' src='img/band-logos/" + artistId + ".jpg'>" +
+            "<img id='album-pic' src='img/album-pics/" + resultData[i]['id'] + ".jpg'>" +
             // Add a link to album.html with id passed with GET url parameter
             '<a href="album.html?id=' + resultData[i]['id'] + '">'
             + resultData[i]["title"] +     // display album name for the link text
