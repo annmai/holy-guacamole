@@ -1,10 +1,3 @@
-<!-- This example is following frontend and backend separation.
-
-    This .html performs two steps:
-    1. Create a html template skeleton, with all the elements defined (some left empty) and named with ids.
-    2. Load index.js to populate the data into empty elements.
-    -->
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">   
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand|VT323" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="css/albums.css">
+	
     <title>Holy Gaucamole!</title>
 </head>
 <body>
@@ -44,31 +38,21 @@
 
 <div id="top-nav">&nbsp;&nbsp; BROWSE by &nbsp;&nbsp; 
 	<a href="artist-list.html" class="top-links"> ARTIST</a> &nbsp;&nbsp; 
-	<a href="albums.html" class="top-links"> ALBUMS</a> &nbsp;&nbsp; 
+	<a href="albums.html" class="top-links" style="color:#EB8AEB;"> ALBUMS</a> &nbsp;&nbsp; 
 	<a href="songs.html" class="top-links"> SONGS</a>
 </div>
 
-<div id="content">
-	<table id="bands_table">
-	    <!-- Create a table header -->
-	    <thead>
-	    <tr>
-	        <!-- Titles of each column-->
-	        <th><p id="arrow1" class="arrow" data-arrow-type="up" onclick="toggleArtist(this)">&uarr; Artist</p></th>
-	        <th><p id="arrow2" class="arrow" data-arrow-type="up" onclick="toggleOrigin(this)">&uarr; Origin</p></th>
-	    </tr>
-	    </thead>
-	    <!-- Table body is left empty here, will be populated with the data retrieved with index.js -->
-	
-	    <tbody id="bands_table_body"></tbody>
-	</table>
-</div>
+<!--  Album content -->
+<div class="grid-container" id="album-list"></div>
+
+
+
 <!-- Load jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 <script src="js/index.js"></script>
-
+<script src="js/albums.js"></script>
 </body>
 
 

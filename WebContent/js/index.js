@@ -78,7 +78,6 @@ function handleBandsResult(resultData) {
     console.log("handleBandsResult: populating artist table from resultData");
 
     // Populate the bands table
-    // Find the empty table body by id "star_table_body"
     let bandsTableBodyElement = jQuery("#bands_table_body");
     bandsTableBodyElement.empty();
 
