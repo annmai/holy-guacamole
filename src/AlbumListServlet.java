@@ -39,12 +39,14 @@ public class AlbumListServlet extends HttpServlet {
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         
-    	//String sortDirection = request.getParameter("order");
+    	//String sortDirection = request.getParameter("dir");
     	//String orderByParam = request.getParameter("orderBy");
-    	//String query = "SELECT * from bands order by " + orderByParam +  " " + sortDirection;
-    	//executeRequest(query, response);
-        
-        
+    	//String limit = request.getParameter("limit");
+    	//String offset = request.getParameter("offset");
+    	
+    	String query = "SELECT * from albums";
+    	executeRequest(query, response);
+       
     }
     
     private void executeRequest(String query, HttpServletResponse response) throws IOException {

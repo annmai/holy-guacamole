@@ -45,9 +45,6 @@ public class SingleArtistServlet extends HttpServlet {
         
         String id = request.getParameter("id");
         String query = "SELECT name from bands where id = '" + id + "'";
-       
-        // for debugging
-        System.out.println(id);
         
         // Output stream to STDOUT
         PrintWriter out = response.getWriter();
@@ -76,9 +73,6 @@ public class SingleArtistServlet extends HttpServlet {
                 String album_id = rs.getString("id");
                 String album_title = rs.getString("title");
                 String artist = rs.getString("artist");
-                
-                // for debugging
-                System.out.println(artist);
                 
                 String label = rs.getString("label");
                 int year = rs.getInt("year");

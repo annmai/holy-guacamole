@@ -70,6 +70,8 @@ function handleArtistResult(resultData) {
  ******************************************************************************/
 
 let artistId = getParameterByName('id');
+sessionStorage.setItem("prevURL", "artist.html?id=" + artistId);
+
 
 // Makes the HTTP GET request and registers on success callback function handleArtistResult
 jQuery.ajax({

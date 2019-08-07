@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">   
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand|VT323" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/albums.css">
+	<link rel="stylesheet" type="text/css" href="css/album.css">
 	
     <title>Holy Gaucamole!</title>
 </head>
@@ -32,27 +32,21 @@
 	</div>
 </div>
 
-<div id="logo">
-	<h1> <img src="img/logo.png" id="avocado"> holy gaucamole! </h1> 
-</div>
-
-<div id="top-nav">&nbsp;&nbsp; BROWSE by &nbsp;&nbsp; 
-	<a href="artist-list.html" class="top-links"> ARTIST</a> &nbsp;&nbsp; 
-	<a href="albums.html" class="top-links" style="color:#EB8AEB;"> ALBUMS</a> &nbsp;&nbsp; 
-	<a href="songs.html" class="top-links"> SONGS</a>
-</div>
-
-<!--  Album content -->
-<div class="grid-container" id="album-list"></div>
+<div id="logo"><h1 id="artist-name"></h1></div>
 
 
+<div id="album-content"></div>
+
+<ul id="tracklisting"></ul>
+
+<p id="backToPrev"></p><br><br>
 
 <!-- Load jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
-<script src="js/index.js"></script>
-<script src="js/albums.js"></script>
+<script src="js/album.js"></script>
+
 </body>
 
 

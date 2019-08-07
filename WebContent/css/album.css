@@ -1,0 +1,21 @@
+#album-picture {
+	margin-left: auto;
+	width: 250px;
+}
+
+#album-info {
+	margin-left: auto;
+	font-size: 16px;
+	position: relative;
+}
+
+#tracklisting {
+	position: relative;
+	top: 50px;
+	clear: both;
+}
+
+#backToPrev {
+	position: relative;
+	bottom: -50px;
+}
