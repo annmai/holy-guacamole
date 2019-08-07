@@ -1,0 +1,83 @@
+#songs-content {
+	font-size: 14px;
+	margin: auto;
+	width: 90%;
+	padding-top: 50px;
+	padding-left: 180px;
+	position: relative;
+}
+
+#add-to-cart-btn {
+	cursor: pointer;
+}
+
+#name-col, #album-col, #artist-col {
+	width: 35%;
+	padding: 3px;
+}
+
+/* ---------------- Pagination -------------------- */
+
+#pagination {
+	position: relative;
+	margin: auto;
+	top: 50px;
+}
+
+#pagination #prev {
+	width: 50px;
+	height: 30px;	
+	color: #234b80 !important;
+}
+
+#pagination #prev:hover a {
+	text-decoration: none;
+	opacity: 1;	
+}
+
+#pagination #prev:hover {
+	background-color: #f2f2f2;	
+}
+
+#pagination #noPrev {
+	width: 50px;
+	height: 30px;	
+}
+
+
+#pagination #noPrev:hover {
+	background-color: #f2f2f2;	
+	cursor: not-allowed;
+}
+
+#pagination .pageNum {
+	display: inline-block;
+	border: solid 1px #ccc;
+	text-align: center;
+	padding: 3px 3px 3px 3px;
+	width: 30px;
+	height: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#pagination .pageNum:hover {
+	background-color: #FDD7E4;
+}
+
+#pagination .pageNum:hover a {
+	color: black;
+  	text-decoration: underline;
+  	opacity: 0.5;
+}
+
+#pagination #currPage {
+	background-color: #234b80;
+
+}
+
+#pagination #currPage a {
+	color: #fff;
+  	text-decoration: none;
+  	opacity: 1;
+}
+

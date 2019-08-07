@@ -1,0 +1,86 @@
+<!-- This example is following frontend and backend separation.
+
+    This .html performs two steps:
+    1. Create a html template skeleton, with all the elements defined (some left empty) and named with ids.
+    2. Load index.js to populate the data into empty elements.
+    -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          
+          
+    <!-- Load Stylesheet & Fonts -->  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">   
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand|VT323" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/songs.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <title>Songs List</title>
+</head>
+<body>
+
+<div id="sidenav">
+	<img src="img/heart-volume.png" id="heart-vol">
+	<div class="nav-item"><i class="material-icons icons">home</i> <a href="index.html">home</a></div>
+	<div class="nav-item"><i class="material-icons icons">search</i> <a href="search.html">search</a></div>
+	<div class="nav-item"><i class="material-icons icons">favorite</i> <a href="favs.html">favorites</a></div>
+	<div class="nav-item"><i class="material-icons icons">library_music</i> <a href="favs.html">purchased</a></div>
+	<div class="nav-item"><i class="material-icons icons">shopping_basket</i> <a href="cart.html">cart</a></div>
+	
+	<div id="nav-footer">
+	<hr>
+		<div class="nav-item"><i class="material-icons icons">person</i><a href="logout.html">sign out</a></div>
+	</div>
+</div>
+
+<div id="logo">
+	<h1> <img src="img/logo.png" id="avocado"> holy gaucamole! </h1> 
+</div>
+
+<div id="top-nav">&nbsp;&nbsp; BROWSE by &nbsp;&nbsp; 
+	<a href="artist-list.html" class="top-links"> ARTIST</a> &nbsp;&nbsp; 		
+	<a href="albums.html" class="top-links"> ALBUMS</a> &nbsp;&nbsp; 
+	<a href="songs.html" class="top-links" style="color:#EB8AEB;"> SONGS</a>
+</div>
+
+<div id="songs-content">
+	<table id=songs_table>
+	    <!-- Create a table header -->
+	    <thead>
+	    <tr>
+	        <!-- Titles of each column-->
+	        <th id="name-col">Name</th>
+	        <th id="album-col">Album</th>
+	        <th id="artist-col">Artist</th>
+	        <th id="cart-btn-col"></th>
+	    </tr>
+	    </thead>
+	    <!-- Table body is left empty here, will be populated with the data retrieved with index.js -->
+	    <!-- Again, id "star_table_body" is useful for jQuery to find this html element -->
+	    <tbody id=songs_table_body></tbody>
+	</table>
+</div>
+
+
+<div id="pagination"></div>
+<p><BR><BR></p>
+
+<!-- Load jQuery  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Load our own JS file -->
+<script src="js/songs.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+
+</html>
