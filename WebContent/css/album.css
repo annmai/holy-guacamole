@@ -1,12 +1,16 @@
 #album-picture {
 	margin-left: auto;
 	width: 250px;
+	float: left;
+	position: relative;
+	left: 300px;
 }
 
 #album-info {
 	margin-left: auto;
 	font-size: 16px;
 	position: relative;
+	clear: right;
 }
 
 #tracklisting {
