@@ -3,8 +3,8 @@
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.Statement;
 
 import javax.annotation.Resource;
 import javax.servlet.ServletException;
@@ -23,6 +23,7 @@ import com.google.gson.JsonObject;
 @WebServlet(name = "ArtistServlet", urlPatterns = "/api/artist")
 public class SingleArtistServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
+    private String artistId;
 
     // Create a dataSource which registered in web.xml
     @Resource(name = "jdbc/musicdb")
@@ -43,8 +44,8 @@ public class SingleArtistServlet extends HttpServlet {
 
         response.setContentType("application/json"); // Response mime type
         
-        String id = request.getParameter("id");
-        String query = "SELECT name from bands where id = '" + id + "'";
+        artistId = request.getParameter("id");
+        String query = "SELECT name from bands where id = ?";
         
         // Output stream to STDOUT
         PrintWriter out = response.getWriter();
@@ -54,10 +55,12 @@ public class SingleArtistServlet extends HttpServlet {
             Connection dbcon = dataSource.getConnection();
 
             // Declare our statement
-            Statement statement = dbcon.createStatement();
+            PreparedStatement statement = dbcon.prepareStatement(query);
+            
+            statement.setString(1, artistId);
 
             // Perform the query
-            ResultSet rs = statement.executeQuery(query);
+            ResultSet rs = statement.executeQuery();
             
         
             if(rs.next()) {

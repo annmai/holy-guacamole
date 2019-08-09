@@ -10,6 +10,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -24,6 +25,8 @@ public class SongsServlet extends HttpServlet {
     private DataSource dataSource;
     private String limit;
     private String offset;
+    private String orderByParam;
+    private String sortDirection;
 
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -38,15 +41,11 @@ public class SongsServlet extends HttpServlet {
 
         response.setContentType("application/json"); // Response mime type
         
-    	String sortDirection = request.getParameter("order");
-    	String orderByParam = request.getParameter("orderBy");
+    	sortDirection = request.getParameter("order");
+    	orderByParam = request.getParameter("orderBy");
     	limit = request.getParameter("limit");
     	offset = request.getParameter("offset");
-        String query = "SELECT * FROM SONGS ORDER BY " + orderByParam  + " " + sortDirection + " LIMIT " + limit + " OFFSET " + offset;
-        
-        //for debugging
-        System.out.println(query);
-        
+        String query = "SELECT * FROM SONGS ORDER BY ? ? LIMIT ? OFFSET ?";
         executeRequest(query, response);
 
     }
@@ -61,10 +60,18 @@ public class SongsServlet extends HttpServlet {
             Connection dbcon = dataSource.getConnection();
 
             // Declare our statement
-            Statement statement = dbcon.createStatement();
+            PreparedStatement statement = dbcon.prepareStatement(query);
 
+			// Set the parameter represented by "?" in the query to the id we get from URL,
+			// Number 1 indicates the first "?" in the query
+			statement.setString(1, orderByParam);
+			
+			statement.setString(2, sortDirection);
+			statement.setInt(3, Integer.parseInt(limit));
+			statement.setInt(4, Integer.parseInt(offset));
+			
             // Perform the query
-            ResultSet rs = statement.executeQuery(query);
+            ResultSet rs = statement.executeQuery();
 
             JsonArray jsonArray = new JsonArray();
 
