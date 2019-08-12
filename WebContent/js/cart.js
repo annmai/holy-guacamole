@@ -4,9 +4,8 @@
 
 function handleCartResult(resultDataString) {
 	
-	//sessionStorage.setItem("cart", resultDataString);
-	//console.log("in handleCartResult: " + sessionStorage.getItem("cart"));
-    
+	sessionStorage.setItem("cart", resultDataString);
+	console.log("Cart in session: " + sessionStorage.getItem("cart"));
 	window.location.replace("cart.html");
 	
 }
@@ -46,6 +45,18 @@ function addToCart(e) {
 		doCartPost(type, name, artist, "add");
 	}
 	
+}
+
+
+/**************************************************************************
+ * Removes Item from Cart by making a POST request to the backend Cart API
+ **************************************************************************/
+
+function removeFromCart(e) {
+	var type = e.getAttribute("data-type");
+	var name = e.getAttribute("data-name");
+	var artist = e.getAttribute("data-artist");
+	doCartPost(type, name, artist, "remove");
 }
 
 /**************************************************************************

@@ -3,8 +3,8 @@
  * data into html elements
  * @param resultData jsonObject
  **************************************************************************/
-function handleCartResult(resultData) {
-    console.log("handleCartResult: populating cart from resultData");
+function handleCartContentResult(resultData) {
+    console.log("handleCartContentResult: populating cart from resultData");
 
     let cartListElement = jQuery("#cart_list");
     cartListElement.empty();
@@ -12,7 +12,7 @@ function handleCartResult(resultData) {
     let cart = resultData["cart"];
     console.log(cart);
     
-    if(cart == null) {
+    if(cart == null || cart.length == 0) {
     	cartListElement.append("There are no items in your shopping cart.");
     }
     else {
@@ -26,7 +26,7 @@ function handleCartResult(resultData) {
             let listItem = "";
             listItem += "<li>";
             listItem += cart[i]["itemType"] + " &middot; " + cart[i]['itemName'] + " &middot; ";
-            listItem += cart[i]["itemArtist"];
+            listItem += cart[i]["itemArtist"] + '&nbsp;&nbsp;&nbsp;<button id="remove-btn" data-type="' + cart[i]['itemType'] + '" data-name="' + cart[i]['itemName'] + '" data-artist="' + cart[i]['itemArtist'] + '" onclick="removeFromCart(this)">remove</button>';
             listItem += "</li>";
 
             // Append the row created to the table body, which will refresh the page
@@ -38,10 +38,6 @@ function handleCartResult(resultData) {
 
 }
 
-
-
-
-
 /******************************************************************************
  * Once this .js is loaded, following scripts will be executed by the browser
  ******************************************************************************/
@@ -51,5 +47,5 @@ jQuery.ajax({
     dataType: "json", // Setting return data type
     method: "GET", // Setting request method
     url: "api/cart", // Setting request url, which is mapped by CartServlet.java
-    success: (resultData) => handleCartResult(resultData) // Setting callback function to handle data returned successfully by the CartServlet
+    success: (resultData) => handleCartContentResult(resultData) // Setting callback function to handle data returned successfully by the CartServlet
 });

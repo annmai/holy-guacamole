@@ -31,7 +31,7 @@ public class CartServlet extends HttpServlet {
         	cartItems = add(session, itemType, itemName, itemArtist, operation);
         
         if(operation.equalsIgnoreCase("remove"))
-        	cartItems = remove(session, itemName);
+        	cartItems = remove(session, itemType, itemName, itemArtist);
 
         response.getWriter().write(cartItems.toString());
         
@@ -83,7 +83,7 @@ public class CartServlet extends HttpServlet {
         return cartItems;
     }
     
-    private JsonArray remove(HttpSession session, String id) {
+    private JsonArray remove(HttpSession session, String type, String name, String artist) {
     	
     	// get the previous items in a JsonArray
         JsonArray cartItems = (JsonArray) session.getAttribute("cartItems");
@@ -93,9 +93,11 @@ public class CartServlet extends HttpServlet {
         	for(int i = 0; i < cartItems.size(); ++i) {
         		JsonObject item = (JsonObject) cartItems.get(i);
         			
-        		String movieId = item.get("movie_id").getAsString();
+        		String itemType = item.get("itemType").getAsString();
+        		String itemName = item.get("itemName").getAsString();
+        		String itemArtist = item.get("itemArtist").getAsString();
         			
-        		if(movieId.equalsIgnoreCase(id)) {
+        		if(itemType.equalsIgnoreCase(type) && itemName.equalsIgnoreCase(name) && itemArtist.equalsIgnoreCase(artist)) {
             		cartItems.remove(i);
             		break;
         		}
