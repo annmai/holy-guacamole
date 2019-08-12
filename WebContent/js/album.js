@@ -32,7 +32,8 @@ function handleAlbumInfoResult(resultData) {
     
     let html = "<img id='album-picture' src='img/album-pics/" + id + ".jpg'>";
     html += "<br><br><div id='album-info'><b>" + resultData[0]["album_title"] + "</b><br>" + resultData[0]["artist"] + "<br>" + resultData[0]["label"] + " " + resultData[0]["year"] + "</div>";
-    html += "<br><button>addToCart</button>"
+    html += '<br><button data-type="Album" data-name="' + resultData[0]["album_title"] + '" data-artist="' + resultData[0]["artist"] + '" onclick="addToCart(this);">Add To Cart</button>';
+    
     albumContentDivElement.append(html);
     
     console.log(resultData.length);

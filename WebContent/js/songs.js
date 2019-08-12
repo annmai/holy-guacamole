@@ -93,7 +93,7 @@ function handleSongsResult(resultData) {
             "</td>";
         rowHTML += "<td>" + resultData[i]["album"] + "</td>";
         rowHTML += "<td>" + resultData[i]["artist"] + "</td>";
-        rowHTML += '<td><i class="material-icons" id="add-to-cart-btn">add_shopping_cart</i></td>';
+        rowHTML += '<td><i class="material-icons" id="add-to-cart-btn" data-type="Track" data-name="' + resultData[i]["name"] + '" data-artist="' + resultData[i]["artist"] + '" onclick="addToCart(this);">add_shopping_cart</i></td>';
         rowHTML += "</tr>";
 
         // Append the row created to the table body, which will refresh the page

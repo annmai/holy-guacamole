@@ -196,26 +196,3 @@ h1 {
 .arrow {
 	cursor: pointer;
 }
-
-/* ---------------- Shared Elements ------------------*/
-
-.addToCartBtn {
-
-	text-transform: uppercase;
-	background-color: #234b80;
-	padding: 5px;
-	border: 1px solid #494949 !important;
-	border-radius: 6px;
-	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
-	margin-top: 10px;
-	cursor: pointer;
-}
-
-.addToCartBtn:hover {
-	color: #ffffff !important;
-	background-color: #234b80;
-	border-color: #ffffff !important;
-	transition: all 0.4s ease 0s;
-}
