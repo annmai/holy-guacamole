@@ -115,6 +115,6 @@ function handleBandsResult(resultData) {
 jQuery.ajax({
     dataType: "json", // Setting return data type
     method: "GET", // Setting request method
-    url: "api/bands", // Setting request url, which is mapped by BandsServlet.java
+    url: "api/bands", // Setting request url, which is mapped by BandListServlet.java
     success: (resultData) => handleBandsResult(resultData) // Setting callback function to handle data returned successfully by the BandListServlet
 });

@@ -17,7 +17,7 @@ function handleCartResult(resultData) {
     }
     else {
     	
-    	cartListElement.append("<h3>Items</h3>");
+    	cartListElement.append("<h4>Items</h4>");
     	
         // Iterate through resultData, no more than 10 entries
         for (let i = 0; i < cart.length; i++) {
