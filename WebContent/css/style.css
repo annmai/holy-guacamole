@@ -47,11 +47,13 @@ body {
 /* unvisited link */
 #sidenav a:link {
   color: white;
+  text-decoration: none;
 }
 
 /* visited link */
 #sidenav a:visited {
   color: white;
+  text-decoration: none;
 }
 
 /* mouse over link */
@@ -63,6 +65,7 @@ body {
 /* selected link */
 #sidenav a:active {
   color: white;
+  text-decoration: none;
 }
 
 .material-icons {

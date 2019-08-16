@@ -1,0 +1,86 @@
+#search-container {
+	margin-left: 75px;
+}
+
+#search-form {
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+#search-bar {
+  width: 415px;
+  height: 43px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #222222;
+  padding-left: 10px;
+  color: white;
+}
+
+#search-icon {
+	font-size: 33px;
+	position: relative;
+	top: 3px;
+}
+
+#search-btn {
+	border-radius: 3px;
+	position: relative;
+	top: 9px;
+	left: -13px;
+	border: 2px solid #ffffff;
+	background-color: pink;
+	cursor: pointer;
+}
+
+#select-box {
+	height: 43px;
+	font-size: 15px;
+	position: relative;
+	left: -7px;
+	border: 2px solid #ffffff;
+}
+
+#search-content {
+	margin-left: 250px;
+}
+
+.album-pic {
+	width: 200px;
+	cursor: pointer;
+
+}
+
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #39A6ED;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+	margin-right: 70px;
+}
+td {
+	padding: 5px;
+}

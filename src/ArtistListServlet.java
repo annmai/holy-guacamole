@@ -12,6 +12,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -38,10 +39,37 @@ public class ArtistListServlet extends HttpServlet {
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         
-    	String sortDirection = request.getParameter("order");
-    	String orderByParam = request.getParameter("orderBy");
-    	String query = "SELECT * from bands order by " + orderByParam +  " " + sortDirection;
-    	executeRequest(query, response);
+    	String keywords = request.getParameter("keywords");
+    	String searchType = request.getParameter("search");
+    	
+    	
+    	if(searchType == null || searchType.length() == 0) {
+        	String sortDirection = request.getParameter("order");
+        	String orderByParam = request.getParameter("orderBy");
+        	String query = "SELECT * from bands order by " + orderByParam +  " " + sortDirection;
+        	executeRequest(query, response);
+    	}
+    	else {
+    		String[] searchwords = keywords.split("\\s+");
+ 	       	String words = "";
+ 	   	
+ 		   	for(int i = 0; i < searchwords.length; ++i) {
+ 		   		
+ 		   		String word = "+" + searchwords[i] + "*";
+ 		   		
+ 		   		if(i != searchwords.length - 1)
+ 		   			word += " ";
+ 		   		
+ 		   		words += word;
+ 		   	}
+ 	   	
+ 		   	words += "";
+ 		   	keywords = words;
+ 		   	
+ 		   	String query_artist = "SELECT * FROM bands b WHERE MATCH(b.name) AGAINST(?)";
+ 		   	executeSearchRequest(query_artist, words, response);
+    	}
+
         
         
     }
@@ -107,4 +135,66 @@ public class ArtistListServlet extends HttpServlet {
         
         out.close();
     }
+    
+	private void executeSearchRequest(String query, String words, HttpServletResponse response) throws IOException {
+	    	
+	        // Output stream to STDOUT
+	        PrintWriter out = response.getWriter();
+	
+	        try {
+	            // Get a connection from dataSource
+	            Connection dbcon = dataSource.getConnection();
+	
+	            // Declare our statement
+	            PreparedStatement statement = dbcon.prepareStatement(query);
+	
+				// Set the parameter represented by "?" in the query to the id we get from URL,
+				// Number 1 indicates the first "?" in the query
+				statement.setString(1, words);
+				
+				//for debugging
+				System.out.println(statement);
+				
+	            // Perform the query
+	            ResultSet rs = statement.executeQuery();
+	
+	            JsonArray jsonArray = new JsonArray();
+	
+	            // Iterate through each row of rs
+	            while (rs.next()) {
+	                String id = rs.getString("id");
+	                String name = rs.getString("name");
+	                String origin = rs.getString("origin");
+	
+	                // Create a JsonObject based on the data we retrieve from rs
+	                JsonObject jsonObject = new JsonObject();
+	                jsonObject.addProperty("id", id);
+	                jsonObject.addProperty("name", name);
+	                jsonObject.addProperty("origin", origin);
+	
+	                jsonArray.add(jsonObject);
+	            }
+	            
+	            // write JSON string to output
+	            out.write(jsonArray.toString());
+	            // set response status to 200 (OK)
+	            response.setStatus(200);
+	
+	            rs.close();
+	            statement.close();
+	            dbcon.close();
+	            
+	        } catch (Exception e) {
+	        	
+				// write error message JSON object to output
+				JsonObject jsonObject = new JsonObject();
+				jsonObject.addProperty("errorMessage", e.getMessage());
+				out.write(jsonObject.toString());
+	
+				// set response status to 500 (Internal Server Error)
+				response.setStatus(500);
+	
+	        }
+	        out.close();
+	    }
 }

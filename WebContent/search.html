@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Load Stylesheet & Fonts -->  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand|VT323" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	
+    <title>Holy Gaucamole!</title>
+</head>
+<body>
+
+<div id="sidenav">
+	<img src="img/heart-volume.png" id="heart-vol">
+	<div class="nav-item"><i class="material-icons icons">home</i> <a href="index.html">home</a></div>
+	<div class="nav-item"><i class="material-icons icons">search</i> <a href="search.html">search</a></div>
+	<div class="nav-item"><i class="material-icons icons">favorite</i> <a href="favs.html">favorites</a></div>
+	<div class="nav-item"><i class="material-icons icons">library_music</i> <a href="favs.html">library</a></div>
+	<div class="nav-item"><i class="material-icons icons">shopping_basket</i> <a href="cart.html">cart</a></div>
+	<div id="nav-footer">
+	<hr>
+		<div class="nav-item"><i class="material-icons icons">person</i><a href="logout.html">sign out</a></div>
+	</div>
+</div>
+
+<div id="logo">
+	<h1> <img src="img/logo.png" id="avocado"> holy gaucamole! </h1> 
+</div>
+
+	<div id="search-container">
+		<form id="search-form" method="get" action="#">
+		  <input id="search-bar" type="text" name="search" placeholder="Search...">
+		  <select id="select-box">
+		    <option value="artist">Artists</option>
+		    <option value="albums">Albums</option>
+		    <option value="songs">Songs</option>
+		  </select>
+		  <button id="search-btn" type="submit" value="submit"><i id="search-icon" class="material-icons">search</i></button>
+		  <br>
+	</form>
+	</div>
+	
+	<br><br><br>
+	<div id="search-results"></div>
+	<table id="search-content"></table>
+
+	<!-- Load jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	<!-- include jquery autocomplete JS  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
+	<script src="js/search.js"></script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
