@@ -1,0 +1,839 @@
+﻿id,name,album,artist,disk number,track number
+1,Mellon Collie and the Infinite Sadness (instrumental),Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,1
+2,"Tonight, Tonight",Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,2
+3,Jellybelly,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,3
+4,Zero,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,4
+5,Here Is No Why,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,5
+6,Bullet With Butterfly Wings,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,6
+7,To Forgive,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,7
+8,Fuck You (An Ode to No One),Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,8
+9,Love,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,9
+10,Cupid de Locke,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,10
+11,Galapogos,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,11
+12,Muzzle,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,12
+13,Porcelina of the Vast Oceans,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,13
+14,Take Me Down,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,1,14
+15,Where Boys Fear to Tread,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,1
+16,Bodies,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,2
+17,Thirty-Three,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,3
+18,In the Arms of Sleep,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,4
+19,1979,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,5
+20,Tales of a Sorched Earth,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,6
+21,Thru the Eyes of Ruby,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,7
+22,Stumbleine,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,8
+23,X.Y.U.,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,9
+24,We Only Come Out At Night,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,10
+25,Beautiful,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,11
+26,Lily (My One and Only),Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,12
+27,By Starlight,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,13
+28,Farewell and Goodnight,Mellon Collie and the Infinite Sadness,The Smashing Pumpkins,2,14
+29,Cherub Rock,Siamese Dream,The Smashing Pumpkins,1,1
+30,Quiet,Siamese Dream,The Smashing Pumpkins,1,2
+31,Today,Siamese Dream,The Smashing Pumpkins,1,3
+32,Hummer,Siamese Dream,The Smashing Pumpkins,1,4
+33,Rocket,Siamese Dream,The Smashing Pumpkins,1,5
+34,Disarm,Siamese Dream,The Smashing Pumpkins,1,6
+35,Soma,Siamese Dream,The Smashing Pumpkins,1,7
+36,Geek U.S.A.,Siamese Dream,The Smashing Pumpkins,1,8
+37,Mayonaise,Siamese Dream,The Smashing Pumpkins,1,9
+38,Spaceboy,Siamese Dream,The Smashing Pumpkins,1,10
+39,Silverfuck,Siamese Dream,The Smashing Pumpkins,1,11
+40,Sweet Sweet,Siamese Dream,The Smashing Pumpkins,1,12
+41,Luna,Siamese Dream,The Smashing Pumpkins,1,13
+42,I Am One,Gish,The Smashing Pumpkins,1,1
+43,Siva,Gish,The Smashing Pumpkins,1,2
+44,Rhinoceros,Gish,The Smashing Pumpkins,1,3
+45,Bury Me,Gish,The Smashing Pumpkins,1,4
+46,Crush,Gish,The Smashing Pumpkins,1,5
+47,Suffer,Gish,The Smashing Pumpkins,1,6
+48,Snail,Gish,The Smashing Pumpkins,1,7
+49,Tristessa,Gish,The Smashing Pumpkins,1,8
+50,Window Paine,Gish,The Smashing Pumpkins,1,9
+51,Daydream,Gish,The Smashing Pumpkins,1,10
+52,To Sheila,Adore,The Smashing Pumpkins,1,1
+53,Ava Adore,Adore,The Smashing Pumpkins,1,2
+54,Perfect,Adore,The Smashing Pumpkins,1,3
+55,Daphne Descends,Adore,The Smashing Pumpkins,1,4
+56,Once Upon a Time,Adore,The Smashing Pumpkins,1,5
+57,Tear,Adore,The Smashing Pumpkins,1,6
+58,Crestfallen,Adore,The Smashing Pumpkins,1,7
+59,Apples + Oranges,Adore,The Smashing Pumpkins,1,8
+60,Pug,Adore,The Smashing Pumpkins,1,9
+61,The Tale of Dusty and Pistol Pete,Adore,The Smashing Pumpkins,1,10
+62,Annie-Dog,Adore,The Smashing Pumpkins,1,11
+63,Shame,Adore,The Smashing Pumpkins,1,12
+64,Behold! The Nightmare,Adore,The Smashing Pumpkins,1,13
+65,For Martha,Adore,The Smashing Pumpkins,1,14
+66,Blank Page,Adore,The Smashing Pumpkins,1,15
+67,17,Adore,The Smashing Pumpkins,1,16
+68,The Everlasting Gaze,Machina/The Machines of God,The Smashing Pumpkins,1,1
+69,Raindrops + Sunshowers,Machina/The Machines of God,The Smashing Pumpkins,1,2
+70,Stand Inside Your Love,Machina/The Machines of God,The Smashing Pumpkins,1,3
+71,I of the Mourning,Machina/The Machines of God,The Smashing Pumpkins,1,4
+72,The Sacred and Profance,Machina/The Machines of God,The Smashing Pumpkins,1,5
+73,"Try, Try, Try",Machina/The Machines of God,The Smashing Pumpkins,1,6
+74,Heavy Metal Machine,Machina/The Machines of God,The Smashing Pumpkins,1,7
+75,This Time,Machina/The Machines of God,The Smashing Pumpkins,1,8
+76,The Imploding Voice,Machina/The Machines of God,The Smashing Pumpkins,1,9
+77,Glass and the Ghost Children,Machina/The Machines of God,The Smashing Pumpkins,1,10
+78,Wound,Machina/The Machines of God,The Smashing Pumpkins,1,11
+79,The Crying Tree of Mercury,Machina/The Machines of God,The Smashing Pumpkins,1,12
+80,With Every Light,Machina/The Machines of God,The Smashing Pumpkins,1,13
+81,Blue Skies Bring Tears,Machina/The Machines of God,The Smashing Pumpkins,1,14
+82,Age of Innocence,Machina/The Machines of God,The Smashing Pumpkins,1,15
+83,Slow Dawn,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,1,1
+84,Vanity,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,1,2
+85,Saturnine,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,1,3
+86,Glass,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,1,4
+87,Soul Power,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,2,1
+88,Cash Car Star (Version 1),Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,2,2
+89,Lucky 13,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,2,3
+90,Speed Kills,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,2,4
+91,If There Is A God (Piano/Vox),Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,3,1
+92,Try,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,3,2
+93,Heavy Metal Machine,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,3,3
+94,Glass,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,1
+95,Cash Car Star,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,2
+96,Dross,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,3
+97,Real Love,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,4
+98,Go,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,5
+99,Let Me Give The World To You,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,6
+100,Innocense,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,7
+101,Home,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,8
+102,Blue Skies Bring Tears (Heavy),Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,9
+103,White Spyder,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,10
+104,In My Body,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,11
+105,If There Is A God,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,12
+106,Le Deux Machina,Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,13
+107,Here's to the Atom Bomb (New Wave Version),Machina II/The Friends & Enemies of Modern Music,The Smashing Pumpkins,4,14
+108,Doomsday Clock,Zeiteist,The Smashing Pumpkins,1,1
+109,7 Shades of Black,Zeiteist,The Smashing Pumpkins,1,2
+110,Bleeding the Orchid,Zeiteist,The Smashing Pumpkins,1,3
+111,That's the Way (My Love Is),Zeiteist,The Smashing Pumpkins,1,4
+112,Tarantula,Zeiteist,The Smashing Pumpkins,1,5
+113,Starz,Zeiteist,The Smashing Pumpkins,1,6
+114,United States,Zeiteist,The Smashing Pumpkins,1,7
+115,Neverlost,Zeiteist,The Smashing Pumpkins,1,8
+116,Bring the Light,Zeiteist,The Smashing Pumpkins,1,9
+117,(Come On) Let's Go!,Zeiteist,The Smashing Pumpkins,1,10
+118,For God and Country,Zeiteist,The Smashing Pumpkins,1,11
+119,Pomp and Circumstances,Zeiteist,The Smashing Pumpkins,1,12
+120,Knights of Malta,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,1
+121,Silvery Sometimes (Ghosts),Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,2
+122,Travels,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,3
+123,Solara,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,4
+124,Alienation,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,5
+125,Marchin' On,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,6
+126,With Sympathy,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,7
+127,Seek and You Shall Destroy,Shiny and Oh So Bright Vol. 1 / LP: No Past. No Future. No Sun.,The Smashing Pumpkins,1,8
+128,Capricorn (A Brand New Name),30 Seconds to Mars,Thirty Seconds To Mars,1,1
+129,Edge of the Earth,30 Seconds to Mars,Thirty Seconds To Mars,1,2
+130,Fallen,30 Seconds to Mars,Thirty Seconds To Mars,1,3
+131,Oblivion,30 Seconds to Mars,Thirty Seconds To Mars,1,4
+132,Buddha for Mary,30 Seconds to Mars,Thirty Seconds To Mars,1,5
+133,Echelon,30 Seconds to Mars,Thirty Seconds To Mars,1,6
+134,Welcome to the Universe,30 Seconds to Mars,Thirty Seconds To Mars,1,7
+135,The Mission,30 Seconds to Mars,Thirty Seconds To Mars,1,8
+136,End of the Beginning,30 Seconds to Mars,Thirty Seconds To Mars,1,9
+137,93 Million Miles,30 Seconds to Mars,Thirty Seconds To Mars,1,10
+138,Year Zero,30 Seconds to Mars,Thirty Seconds To Mars,1,11
+139,Attack,A Beautiful Lie,Thirty Seconds To Mars,1,1
+140,A Beautiful Lie,A Beautiful Lie,Thirty Seconds To Mars,1,2
+141,The Kill,A Beautiful Lie,Thirty Seconds To Mars,1,3
+142,Was it a Dream?,A Beautiful Lie,Thirty Seconds To Mars,1,4
+143,The Fantasy,A Beautiful Lie,Thirty Seconds To Mars,1,5
+144,Savior,A Beautiful Lie,Thirty Seconds To Mars,1,6
+145,From Yesterday,A Beautiful Lie,Thirty Seconds To Mars,1,7
+146,The Story,A Beautiful Lie,Thirty Seconds To Mars,1,8
+147,R-Evolve,A Beautiful Lie,Thirty Seconds To Mars,1,9
+148,A Modern Myth,A Beautiful Lie,Thirty Seconds To Mars,1,10
+149,Battle of One,A Beautiful Lie,Thirty Seconds To Mars,1,11
+150,Hunter,A Beautiful Lie,Thirty Seconds To Mars,1,12
+151,Escape,This Is War,Thirty Seconds To Mars,1,1
+152,Night of the Hunter,This Is War,Thirty Seconds To Mars,1,2
+153,Kings and Queens,This Is War,Thirty Seconds To Mars,1,3
+154,This Is War,This Is War,Thirty Seconds To Mars,1,4
+155,100 Suns,This Is War,Thirty Seconds To Mars,1,5
+156,Hurricane,This Is War,Thirty Seconds To Mars,1,6
+157,Closer to the Edge,This Is War,Thirty Seconds To Mars,1,7
+158,Vox Populi,This Is War,Thirty Seconds To Mars,1,8
+159,Search and Destroy,This Is War,Thirty Seconds To Mars,1,9
+160,Alibi,This Is War,Thirty Seconds To Mars,1,10
+161,Stranger in a Strange Land,This Is War,Thirty Seconds To Mars,1,11
+162,L490,This Is War,Thirty Seconds To Mars,1,12
+163,Birth,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,1
+164,Conquistador,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,2
+165,Up in the Air,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,3
+166,City of Angels,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,4
+167,The Race,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,5
+168,End of All Days,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,6
+169,Pyres of Varanasi,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,7
+170,Bright Lights,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,8
+171,Do or Die,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,9
+172,Convergece,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,10
+173,Northern Lights,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,11
+174,Depuis le debut,"Love, Lust, Faith and Dreams",Thirty Seconds To Mars,1,12
+175,Walk on Water,America,Thirty Seconds To Mars,1,1
+176,Dangerous Night,America,Thirty Seconds To Mars,1,2
+177,Rescue Me,America,Thirty Seconds To Mars,1,3
+178,One Track Mind,America,Thirty Seconds To Mars,1,4
+179,Monolith,America,Thirty Seconds To Mars,1,5
+180,Love Is Madness,America,Thirty Seconds To Mars,1,6
+181,Great Wide Open,America,Thirty Seconds To Mars,1,7
+182,Hail to the Victor,America,Thirty Seconds To Mars,1,8
+183,Dawn Will Rise,America,Thirty Seconds To Mars,1,9
+184,Remedy,America,Thirty Seconds To Mars,1,10
+185,Live Like A Dream,America,Thirty Seconds To Mars,1,11
+186,Rider,America,Thirty Seconds To Mars,1,12
+187,The Hollow,Mer de Noms,A Perfect Circle,1,1
+188,Magdalena,Mer de Noms,A Perfect Circle,1,2
+189,Rose,Mer de Noms,A Perfect Circle,1,3
+190,Judith,Mer de Noms,A Perfect Circle,1,4
+191,Orestes,Mer de Noms,A Perfect Circle,1,5
+192,3 Libras,Mer de Noms,A Perfect Circle,1,6
+193,Sleeping Beauty,Mer de Noms,A Perfect Circle,1,7
+194,Thomas,Mer de Noms,A Perfect Circle,1,8
+195,Renholder,Mer de Noms,A Perfect Circle,1,9
+196,Thinking of You,Mer de Noms,A Perfect Circle,1,10
+197,Brena,Mer de Noms,A Perfect Circle,1,11
+198,Over,Mer de Noms,A Perfect Circle,1,12
+199,The Package,Thirteenth Step,A Perfect Circle,1,1
+200,Weak and Powerless,Thirteenth Step,A Perfect Circle,1,2
+201,The Noose,Thirteenth Step,A Perfect Circle,1,3
+202,Blue,Thirteenth Step,A Perfect Circle,1,4
+203,Vanishing,Thirteenth Step,A Perfect Circle,1,5
+204,A Stranger,Thirteenth Step,A Perfect Circle,1,6
+205,The Outsider,Thirteenth Step,A Perfect Circle,1,7
+206,Crimes,Thirteenth Step,A Perfect Circle,1,8
+207,The Nurse Who Loved Me,Thirteenth Step,A Perfect Circle,1,9
+208,Pet,Thirteenth Step,A Perfect Circle,1,10
+209,Lullaby,Thirteenth Step,A Perfect Circle,1,11
+210,Gravity,Thirteenth Step,A Perfect Circle,1,12
+211,Annihilation,Emotive,A Perfect Circle,1,1
+212,Imagine,Emotive,A Perfect Circle,1,2
+213,"Peace, Love, and Understanding",Emotive,A Perfect Circle,1,3
+214,What's Going On,Emotive,A Perfect Circle,1,4
+215,Passive,Emotive,A Perfect Circle,1,5
+216,Gimmie Gimmie Gimmie,Emotive,A Perfect Circle,1,6
+217,People Are People,Emotive,A Perfect Circle,1,7
+218,Freedom of Choice,Emotive,A Perfect Circle,1,8
+219,Let's Have a War,Emotive,A Perfect Circle,1,9
+220,Counting Bodies Like Sheep to the Rhythm of War Drums,Emotive,A Perfect Circle,1,10
+221,When the Levee Breaks,Emotive,A Perfect Circle,1,11
+222,Fiddle and the Drum,Emotive,A Perfect Circle,1,12
+223,Eat the Elephant,Eat the Elephant,A Perfect Circle,1,1
+224,Disillusioned,Eat the Elephant,A Perfect Circle,1,2
+225,The Contrarian,Eat the Elephant,A Perfect Circle,1,3
+226,The Doomed,Eat the Elephant,A Perfect Circle,1,4
+227,"So Long, and Thanks for All the Fish",Eat the Elephant,A Perfect Circle,1,5
+228,Talk Talk,Eat the Elephant,A Perfect Circle,1,6
+229,By and Down the River,Eat the Elephant,A Perfect Circle,1,7
+230,Delicious,Eat the Elephant,A Perfect Circle,1,8
+231,DLB,Eat the Elephant,A Perfect Circle,1,9
+232,Hourglass,Eat the Elephant,A Perfect Circle,1,10
+233,Feathers,Eat the Elephant,A Perfect Circle,1,11
+234,Get the Lead Out,Eat the Elephant,A Perfect Circle,1,12
+235,Sunburn,Showbiz,Muse,1,1
+236,Muscle Museum,Showbiz,Muse,1,2
+237,Fillip,Showbiz,Muse,1,3
+238,Falling Down,Showbiz,Muse,1,4
+239,Cave,Showbiz,Muse,1,5
+240,Showbiz,Showbiz,Muse,1,6
+241,Unintended,Showbiz,Muse,1,7
+242,Uno,Showbiz,Muse,1,8
+243,Sober,Showbiz,Muse,1,9
+244,Escape,Showbiz,Muse,1,10
+245,Overdue,Showbiz,Muse,1,11
+246,Hate This & I'll Love You,Showbiz,Muse,1,12
+247,New Born,Origin of Symmetry,Muse,1,1
+248,Bliss,Origin of Symmetry,Muse,1,2
+249,Space Dementia,Origin of Symmetry,Muse,1,3
+250,Hyper Music,Origin of Symmetry,Muse,1,4
+251,Plug In Baby,Origin of Symmetry,Muse,1,5
+252,Citizen Erased,Origin of Symmetry,Muse,1,6
+253,Micro Cuts,Origin of Symmetry,Muse,1,7
+254,Screenager,Origin of Symmetry,Muse,1,8
+255,Darkshines,Origin of Symmetry,Muse,1,9
+256,Feeling Good,Origin of Symmetry,Muse,1,10
+257,Megalomania,Origin of Symmetry,Muse,1,11
+258,Intro,Absolution,Muse,1,1
+259,Apocalypse Please,Absolution,Muse,1,2
+260,Time Is Running Out,Absolution,Muse,1,3
+261,Sing for Absolution,Absolution,Muse,1,4
+262,Stockholm Syndrome,Absolution,Muse,1,5
+263,Falling Away with You,Absolution,Muse,1,6
+264,Interlude,Absolution,Muse,1,7
+265,Hysteria,Absolution,Muse,1,8
+266,Blackout,Absolution,Muse,1,9
+267,Butterflies & Hurricanes,Absolution,Muse,1,10
+268,The Small Print,Absolution,Muse,1,11
+269,Endlessly,Absolution,Muse,1,12
+270,Thoughts of a Dying Atheist,Absolution,Muse,1,13
+271,Ruled by Secrecy,Absolution,Muse,1,14
+272,Take a Bow,Black Holes and Revelations,Muse,1,1
+273,Starlight,Black Holes and Revelations,Muse,1,2
+274,Supermassive Black Hole,Black Holes and Revelations,Muse,1,3
+275,Map of the Problematique,Black Holes and Revelations,Muse,1,4
+276,Soldier's Poem,Black Holes and Revelations,Muse,1,5
+277,Invincible,Black Holes and Revelations,Muse,1,6
+278,Assassin,Black Holes and Revelations,Muse,1,7
+279,Exo-Politics,Black Holes and Revelations,Muse,1,8
+280,City of Delusion,Black Holes and Revelations,Muse,1,9
+281,Hoodoo,Black Holes and Revelations,Muse,1,10
+282,Knights of Cydonia,Black Holes and Revelations,Muse,1,11
+283,Uprising,The Resistance,Muse,1,1
+284,Resistance,The Resistance,Muse,1,2
+285,Undisclosed Desires,The Resistance,Muse,1,3
+286,United States of Eurasia (+Collateral Damage),The Resistance,Muse,1,4
+287,Guiding Light,The Resistance,Muse,1,5
+288,Unnatural Selection,The Resistance,Muse,1,6
+289,MK Ultra,The Resistance,Muse,1,7
+290,I Belong to You (+Mon Coeur S'ouvre a ta Voix),The Resistance,Muse,1,8
+291,Exogenesis: Symphony Part 1 (Overture),The Resistance,Muse,1,9
+292,Exogenesis: Symphony Part 2 (Cross-Pollination),The Resistance,Muse,1,10
+293,Exogenesis: Symphony Part 3 (Redemption),The Resistance,Muse,1,11
+294,Supremacy,The 2nd Law,Muse,1,1
+295,Madness,The 2nd Law,Muse,1,2
+296,Panic Station,The 2nd Law,Muse,1,3
+297,Prelude,The 2nd Law,Muse,1,4
+298,Survival,The 2nd Law,Muse,1,5
+299,Follow Me,The 2nd Law,Muse,1,6
+300,Animals,The 2nd Law,Muse,1,7
+301,Explorers,The 2nd Law,Muse,1,8
+302,Big Freeze,The 2nd Law,Muse,1,9
+303,Save Me,The 2nd Law,Muse,1,10
+304,Liquid State,The 2nd Law,Muse,1,11
+305,The 2nd Law: Unsustainable,The 2nd Law,Muse,1,12
+306,The 2nd Law: Isolated System,The 2nd Law,Muse,1,13
+307,Dead Inside,Drones,Muse,1,1
+308,[Drill Sergeant],Drones,Muse,1,2
+309,Psycho,Drones,Muse,1,3
+310,Mercy,Drones,Muse,1,4
+311,Reapers,Drones,Muse,1,5
+312,The Handler,Drones,Muse,1,6
+313,[JFK],Drones,Muse,1,7
+314,Defector,Drones,Muse,1,8
+315,Revolt,Drones,Muse,1,9
+316,Aftermath,Drones,Muse,1,10
+317,The Globalist,Drones,Muse,1,11
+318,Drones,Drones,Muse,1,12
+319,Algorithm,Simulation Theory,Muse,1,1
+320,The Dark Side,Simulation Theory,Muse,1,2
+321,Pressure,Simulation Theory,Muse,1,3
+322,Propaganda,Simulation Theory,Muse,1,4
+323,Break It To Me,Simulation Theory,Muse,1,5
+324,Something Human,Simulation Theory,Muse,1,6
+325,Thought Contagion,Simulation Theory,Muse,1,7
+326,Get Up and Fight,Simulation Theory,Muse,1,8
+327,Blockades,Simulation Theory,Muse,1,9
+328,Dig Down,Simulation Theory,Muse,1,10
+329,The Void,Simulation Theory,Muse,1,11
+330,Romance,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,1
+331,"Honey, This Mirror Isn't Big Enough for the Two of Us","I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,2
+332,Vampires Will Never Hurt You,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,3
+333,Drowning Lessons,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,4
+334,Our Lady of Sorrows,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,5
+335,Headfirst for Halos,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,6
+336,Skylines and Turnstiles,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,7
+337,Early Sunsets Over Monroeville,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,8
+338,This Is the Best Day Ever,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,9
+339,Cubicles,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,10
+340,Demolition Lovers,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,1,11
+341,Helena,Three Cheers for Sweet Revenge,My Chemical Romance,1,1
+342,"Give 'Em Hell, Kid",Three Cheers for Sweet Revenge,My Chemical Romance,1,2
+343,To the End,Three Cheers for Sweet Revenge,My Chemical Romance,1,3
+344,You Know What They Do to Guys Like Us in Prison,Three Cheers for Sweet Revenge,My Chemical Romance,1,4
+345,I'm Not Okay (I Promise),Three Cheers for Sweet Revenge,My Chemical Romance,1,5
+356,The Ghost of You,Three Cheers for Sweet Revenge,My Chemical Romance,1,6
+357,The Jetset Life Is Gonna Kill You,Three Cheers for Sweet Revenge,My Chemical Romance,1,7
+358,Interlude,Three Cheers for Sweet Revenge,My Chemical Romance,1,8
+359,Thank You for the Venom,Three Cheers for Sweet Revenge,My Chemical Romance,1,9
+360,Hang 'Em High,Three Cheers for Sweet Revenge,My Chemical Romance,1,10
+361,"It's Not a Fashion Statement, It's a Deathwish",Three Cheers for Sweet Revenge,My Chemical Romance,1,11
+362,Cemetry Drive,Three Cheers for Sweet Revenge,My Chemical Romance,1,12
+363,I Never Told You What I Do for a Living,Three Cheers for Sweet Revenge,My Chemical Romance,1,13
+364,The End,The Black Parade,My Chemical Romance,1,1
+365,Dead!,The Black Parade,My Chemical Romance,1,2
+366,This Is How I Disappear,The Black Parade,My Chemical Romance,1,3
+367,The Sharpest Lives,The Black Parade,My Chemical Romance,1,4
+368,Welcome to the Black Parade,The Black Parade,My Chemical Romance,1,5
+369,I Don't Love You,The Black Parade,My Chemical Romance,1,6
+370,House of Wolves,The Black Parade,My Chemical Romance,1,7
+371,Cancer,The Black Parade,My Chemical Romance,1,8
+372,Mama,The Black Parade,My Chemical Romance,1,9
+373,Sleep,The Black Parade,My Chemical Romance,1,10
+374,Teenagers,The Black Parade,My Chemical Romance,1,11
+375,Disenchanted,The Black Parade,My Chemical Romance,1,12
+376,Famous Last Words,The Black Parade,My Chemical Romance,1,13
+377,Blood,The Black Parade,My Chemical Romance,1,14
+378,"Look Alive, Sunshine",Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1
+379,Na Na Na (Na Na Na Na Na Na Na Na Na),Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,2
+380,Bulletproof Heart,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,3
+381,Sing,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,4
+382,Planetary (Go!),Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,5
+383,The Only Hope for Me Is You,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,6
+384,Jet-Star and the Kobra Kid/Traffic Report,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,7
+385,Party Poison,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,8
+386,"Save Yourself, I'll Hold Them Back",Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,9
+387,S/C/A/R/E/C/R/O/W,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,10
+388,Summertime,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,11
+389,Destroya,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,12
+390,The Kids from Yesterday,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,13
+391,"Goodnite, Dr. Death",Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,14
+392,Vampire Money,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,15
+393,Pompeii,Bad Blood,Bastille,1,1
+394,Things We Lost in the Fire,Bad Blood,Bastille,1,2
+395,Bad Blood,Bad Blood,Bastille,1,3
+396,Overjoyed,Bad Blood,Bastille,1,4
+397,These Streets,Bad Blood,Bastille,1,5
+398,"Weight of Living, Pt. II",Bad Blood,Bastille,1,6
+399,Icarus,Bad Blood,Bastille,1,7
+400,Oblivion,Bad Blood,Bastille,1,8
+401,Flaws,Bad Blood,Bastille,1,9
+402,Daniel in the Den,Bad Blood,Bastille,1,10
+403,Laura Palmer,Bad Blood,Bastille,1,11
+404,Get Home,Bad Blood,Bastille,1,12
+405,"Weight of Living, Pt. I",Bad Blood,Bastille,1,13
+406,Good Grief,Wild World,Bastille,1,1
+407,The Currents,Wild World,Bastille,1,2
+408,An Act of Kindness,Wild World,Bastille,1,3
+409,Warmth,Wild World,Bastille,1,4
+410,Glory,Wild World,Bastille,1,5
+411,Power,Wild World,Bastille,1,6
+412,The Evils,Wild World,Bastille,1,7
+413,Send Them Off!,Wild World,Bastille,1,8
+414,Lethargy,Wild World,Bastille,1,9
+415,Four Walls (The Ballad of Perry Smith),Wild World,Bastille,1,10
+416,Blame,Wild World,Bastille,1,11
+417,Fake It,Wild World,Bastille,1,12
+418,Snakes,Wild World,Bastille,1,13
+419,Winter of Our Youth,Wild World,Bastille,1,14
+420,Quarter Past Midnight,Doom Days,Bastille,1,1
+421,Bad Decisions,Doom Days,Bastille,1,2
+422,The Waves,Doom Days,Bastille,1,3
+423,Divide,Doom Days,Bastille,1,4
+424,Million Pieces,Doom Days,Bastille,1,5
+425,Doom Days,Doom Days,Bastille,1,6
+426,Nocturnal Creatures,Doom Days,Bastille,1,7
+427,4AM,Doom Days,Bastille,1,8
+428,Another Place,Doom Days,Bastille,1,9
+429,Those Nights,Doom Days,Bastille,1,10
+430,Joy,Doom Days,Bastille,1,11
+431,Papercut,Hybrid Theory,Linkin Park,1,1
+432,One Step Closer,Hybrid Theory,Linkin Park,1,2
+433,With You,Hybrid Theory,Linkin Park,1,3
+434,Points of Authority,Hybrid Theory,Linkin Park,1,4
+435,Crawling,Hybrid Theory,Linkin Park,1,5
+436,Runaway,Hybrid Theory,Linkin Park,1,6
+437,By Myself,Hybrid Theory,Linkin Park,1,7
+438,In the End,Hybrid Theory,Linkin Park,1,8
+439,A Place for My Head,Hybrid Theory,Linkin Park,1,9
+440,Forgotten,Hybrid Theory,Linkin Park,1,10
+441,Cure the Itch,Hybrid Theory,Linkin Park,1,11
+442,Pushing Me Away,Hybrid Theory,Linkin Park,1,12
+443,Foreword (Instrumental),Meteora,Linkin Park,1,1
+444,Don't Stay,Meteora,Linkin Park,1,2
+445,Somewhere I Belong,Meteora,Linkin Park,1,3
+446,Lying from You,Meteora,Linkin Park,1,4
+447,Hit the Floor,Meteora,Linkin Park,1,5
+448,Easier to Run,Meteora,Linkin Park,1,6
+449,Faint,Meteora,Linkin Park,1,7
+450,Figure .09,Meteora,Linkin Park,1,8
+451,Breaking the Habit,Meteora,Linkin Park,1,9
+452,From the Inside,Meteora,Linkin Park,1,10
+453,Nodboy's Listening,Meteora,Linkin Park,1,11
+454,Session (Instrumental),Meteora,Linkin Park,1,12
+455,Numb,Meteora,Linkin Park,1,13
+456,Wake,Minutes to Midnight,Linkin Park,1,1
+457,Given Up,Minutes to Midnight,Linkin Park,1,2
+458,Leave Out All the Rest,Minutes to Midnight,Linkin Park,1,3
+459,Bleed It Out,Minutes to Midnight,Linkin Park,1,4
+460,Shadow of the Day,Minutes to Midnight,Linkin Park,1,5
+461,What I've Done,Minutes to Midnight,Linkin Park,1,6
+462,Hands Held High,Minutes to Midnight,Linkin Park,1,7
+463,No More Sorrow,Minutes to Midnight,Linkin Park,1,8
+464,Valentine's Day,Minutes to Midnight,Linkin Park,1,9
+465,In Between,Minutes to Midnight,Linkin Park,1,10
+466,In Pieces,Minutes to Midnight,Linkin Park,1,11
+467,The Little Things Give You Away,Minutes to Midnight,Linkin Park,1,12
+468,The Requiem,A Thousand Suns,Linkin Park,1,1
+469,The Radiance,A Thousand Suns,Linkin Park,1,2
+470,Burning in the Skies,A Thousand Suns,Linkin Park,1,3
+471,Empty Spaces (Interlude),A Thousand Suns,Linkin Park,1,4
+472,When They Come for Me,A Thousand Suns,Linkin Park,1,5
+473,Robot Boy,A Thousand Suns,Linkin Park,1,6
+474,Jornada Del Muerto,A Thousand Suns,Linkin Park,1,7
+475,Waiting for the End,A Thousand Suns,Linkin Park,1,8
+476,Blackout,A Thousand Suns,Linkin Park,1,9
+477,Wretches and Kings,A Thousand Suns,Linkin Park,1,10
+478,"Wisdom, Justice, and Love (Instrumental)",A Thousand Suns,Linkin Park,1,11
+479,Iridescnet,A Thousand Suns,Linkin Park,1,12
+480,Fallout,A Thousand Suns,Linkin Park,1,13
+481,The Catalyst,A Thousand Suns,Linkin Park,1,14
+482,The Messenger,A Thousand Suns,Linkin Park,1,15
+483,Lost in the Echo,Living Things,Linkin Park,1,1
+484,In My Remains,Living Things,Linkin Park,1,2
+485,Burn It Down,Living Things,Linkin Park,1,3
+486,Lies Greed Misery,Living Things,Linkin Park,1,4
+487,I'll Be Gone,Living Things,Linkin Park,1,5
+488,Castle of Glass,Living Things,Linkin Park,1,6
+489,Victimized,Living Things,Linkin Park,1,7
+490,Roads Untraveled,Living Things,Linkin Park,1,8
+491,Skin to Bone,Living Things,Linkin Park,1,9
+492,Until It Breaks,Living Things,Linkin Park,1,10
+493,Tinfoil (Instrumental),Living Things,Linkin Park,1,11
+494,Powerless,Living Things,Linkin Park,1,12
+495,Keys to the Kingdom,The Hunting Party,Linkin Park,1,1
+496,All for Nothing,The Hunting Party,Linkin Park,1,2
+497,Guilty All the Same,The Hunting Party,Linkin Park,1,3
+498,The Summoning,The Hunting Party,Linkin Park,1,4
+499,War,The Hunting Party,Linkin Park,1,5
+500,Wastelands,The Hunting Party,Linkin Park,1,6
+501,Until It's Gone,The Hunting Party,Linkin Park,1,7
+502,Rebellion,The Hunting Party,Linkin Park,1,8
+503,Mark the Graves,The Hunting Party,Linkin Park,1,9
+504,Drawbar,The Hunting Party,Linkin Park,1,10
+505,Final Masquerade,The Hunting Party,Linkin Park,1,11
+506,A Line in the Sand,The Hunting Party,Linkin Park,1,12
+507,Nobody Can Save Me,One More Light,Linkin Park,1,1
+508,Good Goodbye,One More Light,Linkin Park,1,2
+509,Talking to Myself,One More Light,Linkin Park,1,3
+510,Battle Symphony,One More Light,Linkin Park,1,4
+511,Invisible,One More Light,Linkin Park,1,5
+512,Heavy,One More Light,Linkin Park,1,6
+513,Sorry for Now,One More Light,Linkin Park,1,7
+514,Halfway Right,One More Light,Linkin Park,1,8
+515,One More Light,One More Light,Linkin Park,1,9
+516,Sharp Edges,One More Light,Linkin Park,1,10
+517,IOU,"Old World Underground, Where Are You Now?",Metric,1,1
+518,Hustle Rose,"Old World Underground, Where Are You Now?",Metric,1,2
+519,Succexy,"Old World Underground, Where Are You Now?",Metric,1,3
+520,Combat Baby,"Old World Underground, Where Are You Now?",Metric,1,4
+521,Calculation Theme,"Old World Underground, Where Are You Now?",Metric,1,5
+522,Wet Blanket,"Old World Underground, Where Are You Now?",Metric,1,6
+523,On a Slow Night,"Old World Underground, Where Are You Now?",Metric,1,7
+524,The List,"Old World Underground, Where Are You Now?",Metric,1,8
+525,Dead Disco,"Old World Underground, Where Are You Now?",Metric,1,9
+526,Love Is A Place,"Old World Underground, Where Are You Now?",Metric,1,10
+527,Empty,Live It Out,Metric,1,1
+528,Glass Ceiling,Live It Out,Metric,1,2
+529,Handshakes,Live It Out,Metric,1,3
+530,To Little Too Late,Live It Out,Metric,1,4
+531,Poster of a Girl,Live It Out,Metric,1,5
+532,Monster Hospital,Live It Out,Metric,1,6
+533,Patriarch on a Vespa,Live It Out,Metric,1,7
+534,The Police and the Private,Live It Out,Metric,1,8
+535,Ending Start,Live It Out,Metric,1,9
+536,Live It Out,Live It Out,Metric,1,10
+537,Grow Up and Blow Away,Grow Up and Blow Away,Metric,1,1
+538,Hardwire,Grow Up and Blow Away,Metric,1,2
+539,Rock Me Now,Grow Up and Blow Away,Metric,1,3
+540,The Twist,Grow Up and Blow Away,Metric,1,4
+541,On the Sly,Grow Up and Blow Away,Metric,1,5
+542,Soft Rock Star,Grow Up and Blow Away,Metric,1,6
+543,Raw Sugar,Grow Up and Blow Away,Metric,1,7
+544,White Gold,Grow Up and Blow Away,Metric,1,8
+545,London Halflife,Grow Up and Blow Away,Metric,1,9
+546,Soft Rock Star,Grow Up and Blow Away,Metric,1,10
+547,Help I'm Alive,Fantasies,Metric,1,1
+548,Sick Muse,Fantasies,Metric,1,2
+549,Satellite Mind,Fantasies,Metric,1,3
+550,Twilight Galaxy,Fantasies,Metric,1,4
+551,Gold Gun Girls,Fantasies,Metric,1,5
+552,Gimme Sympathy,Fantasies,Metric,1,6
+553,Collect Call,Fantasies,Metric,1,7
+554,Front Row,Fantasies,Metric,1,8
+555,Blindness,Fantasies,Metric,1,9
+556,Stadium Love,Fantasies,Metric,1,10
+557,Artificial Nocturne,Synthetica,Metric,1,1
+558,Youth Without Youth,Synthetica,Metric,1,2
+559,Speed the Collapse,Synthetica,Metric,1,3
+560,Breathing Underwater,Synthetica,Metric,1,4
+561,Dreams So Real,Synthetica,Metric,1,5
+562,Lost Kitten,Synthetica,Metric,1,6
+563,The Void,Synthetica,Metric,1,7
+564,Synthetica,Synthetica,Metric,1,8
+565,Clone,Synthetica,Metric,1,9
+566,The Wanderlust,Synthetica,Metric,1,10
+567,Nothing But Time,Synthetica,Metric,1,11
+568,Lie Lie Lie,Pagans in Vegas,Metric,1,1
+569,Fortunes,Pagans in Vegas,Metric,1,2
+570,The Shade,Pagans in Vegas,Metric,1,3
+571,Celebrate,Pagans in Vegas,Metric,1,4
+572,Cascades,Pagans in Vegas,Metric,1,5
+573,For Kicks,Pagans in Vegas,Metric,1,6
+574,"Too Bad, So Sad",Pagans in Vegas,Metric,1,7
+575,Other Side,Pagans in Vegas,Metric,1,8
+576,Blind Valentine,Pagans in Vegas,Metric,1,9
+577,The Governess,Pagans in Vegas,Metric,1,10
+578,"The Face, Part I",Pagans in Vegas,Metric,1,11
+579,"The Face, Part II",Pagans in Vegas,Metric,1,12
+580,Dark Saturday,Art of Doubt,Metric,1,1
+581,Love You Back,Art of Doubt,Metric,1,2
+582,Die Happy,Art of Doubt,Metric,1,3
+583,Now or Never Now,Art of Doubt,Metric,1,4
+584,Art of Doubt,Art of Doubt,Metric,1,5
+585,Underline the Black,Art of Doubt,Metric,1,6
+586,Dressed to Suppress,Art of Doubt,Metric,1,7
+587,Risk,Art of Doubt,Metric,1,8
+588,Seven Rules,Art of Doubt,Metric,1,9
+589,Holding Out,Art of Doubt,Metric,1,10
+590,Anticipate,Art of Doubt,Metric,1,11
+591,No Lights on the Horizon,Art of Doubt,Metric,1,12
+592,The Mother We Share,The Bones of What You Believe,Chvrches,1,1
+593,We Sink,The Bones of What You Believe,Chvrches,1,2
+594,Gun,The Bones of What You Believe,Chvrches,1,3
+595,Tether,The Bones of What You Believe,Chvrches,1,4
+596,Lies,The Bones of What You Believe,Chvrches,1,5
+597,Under the Tide,The Bones of What You Believe,Chvrches,1,6
+598,Recover,The Bones of What You Believe,Chvrches,1,7
+599,Night Sky,The Bones of What You Believe,Chvrches,1,8
+600,Science/Visions,The Bones of What You Believe,Chvrches,1,9
+601,Lungs,The Bones of What You Believe,Chvrches,1,10
+602,By the Throat,The Bones of What You Believe,Chvrches,1,11
+603,You Caught the Light,The Bones of What You Believe,Chvrches,1,12
+604,Never Ending Circles,Every Open Eye,Chvrches,1,1
+605,Leave a Trace,Every Open Eye,Chvrches,1,2
+606,Keep You on My Side,Every Open Eye,Chvrches,1,3
+607,Make Them Gold,Every Open Eye,Chvrches,1,4
+608,Clearest Blue,Every Open Eye,Chvrches,1,5
+609,High Enough to Carry You Over,Every Open Eye,Chvrches,1,6
+610,Empty Threat,Every Open Eye,Chvrches,1,7
+611,Down Side of Me,Every Open Eye,Chvrches,1,8
+612,Playing Dead,Every Open Eye,Chvrches,1,9
+613,Bury It,Every Open Eye,Chvrches,1,10
+614,Afterglow,Every Open Eye,Chvrches,1,11
+615,Graffiti,Love Is Dead,Chvrches,1,1
+616,Get Out,Love Is Dead,Chvrches,1,2
+617,Deliverance,Love Is Dead,Chvrches,1,3
+618,My Enemy,Love Is Dead,Chvrches,1,4
+619,Forever,Love Is Dead,Chvrches,1,5
+620,Never Say Die,Love Is Dead,Chvrches,1,6
+621,Miracle,Love Is Dead,Chvrches,1,7
+622,Graves,Love Is Dead,Chvrches,1,8
+623,Heaven/Hell,Love Is Dead,Chvrches,1,9
+624,God's Plan,Love Is Dead,Chvrches,1,10
+625,Really Gone,Love Is Dead,Chvrches,1,11
+626,ii,Love Is Dead,Chvrches,1,12
+627,Wonderland,Love Is Dead,Chvrches,1,13
+628,Introduction (instrumental),A Fever You Can't Sweat Out,Panic! At the Disco,1,1
+629,The Only Difference Between Martydom and Suicide Is Press Coverage,A Fever You Can't Sweat Out,Panic! At the Disco,1,2
+630,London Beckoned Songs About Money Written by Machines,A Fever You Can't Sweat Out,Panic! At the Disco,1,3
+631,"Nails for Breakfast, Tacks for Snacks",A Fever You Can't Sweat Out,Panic! At the Disco,1,4
+632,Camisado,A Fever You Can't Sweat Out,Panic! At the Disco,1,5
+633,Time to Dance,A Fever You Can't Sweat Out,Panic! At the Disco,1,6
+634,Lying Is the Most Fun a Girl Can Have Without Taking Her Clothes Off,A Fever You Can't Sweat Out,Panic! At the Disco,1,7
+635,Intermission (intrumental),A Fever You Can't Sweat Out,Panic! At the Disco,1,8
+636,But It's Better If You Do,A Fever You Can't Sweat Out,Panic! At the Disco,1,9
+637,I Write Sins Not Tragedies,A Fever You Can't Sweat Out,Panic! At the Disco,1,10
+638,I Constantly Thank God for Esteban,A Fever You Can't Sweat Out,Panic! At the Disco,1,11
+639,"There's a Good Reason These Tables Are Numbered Honey, You Just Haven't Thought of It Yet",A Fever You Can't Sweat Out,Panic! At the Disco,1,12
+640,"Build God, Then We'll Talk",A Fever You Can't Sweat Out,Panic! At the Disco,1,13
+641,We're So Starving,Pretty. Odd.,Panic! At the Disco,1,1
+642,Nine in the Afternoon,Pretty. Odd.,Panic! At the Disco,1,2
+643,She's a Handsome Woman,Pretty. Odd.,Panic! At the Disco,1,3
+644,Do You Know What I'm Seeing?,Pretty. Odd.,Panic! At the Disco,1,4
+645,That Green Gentleman (Things Have Changed),Pretty. Odd.,Panic! At the Disco,1,5
+646,I Have Friends in Holy Spaces,Pretty. Odd.,Panic! At the Disco,1,6
+647,Northern Downpour,Pretty. Odd.,Panic! At the Disco,1,7
+648,When the Day Met the Night,Pretty. Odd.,Panic! At the Disco,1,8
+649,Pas de Cheval,Pretty. Odd.,Panic! At the Disco,1,9
+650,The Piano Knows Something I Don't Know,Pretty. Odd.,Panic! At the Disco,1,10
+651,Behind the Sea,Pretty. Odd.,Panic! At the Disco,1,11
+652,Folkin' Around,Pretty. Odd.,Panic! At the Disco,1,12
+653,She Had the World,Pretty. Odd.,Panic! At the Disco,1,13
+654,From a Mountain in the Middle of the Cabins,Pretty. Odd.,Panic! At the Disco,1,14
+655,Mad as Rabbits,Pretty. Odd.,Panic! At the Disco,1,15
+656,The Ballad of Mona Lisa,Vices & Virtues,Panic! At the Disco,1,1
+657,Let's Kill Tonight,Vices & Virtues,Panic! At the Disco,1,2
+658,Hurricane,Vices & Virtues,Panic! At the Disco,1,3
+659,Memories,Vices & Virtues,Panic! At the Disco,1,4
+660,Trade Mistakes,Vices & Virtues,Panic! At the Disco,1,5
+661,Ready to Go (Get Me Out of My Mind),Vices & Virtues,Panic! At the Disco,1,6
+662,Always,Vices & Virtues,Panic! At the Disco,1,7
+663,The Calendar,Vices & Virtues,Panic! At the Disco,1,8
+664,Sarah Smiles,Vices & Virtues,Panic! At the Disco,1,9
+665,Nearly Witches (Ever Since We Met…),Vices & Virtues,Panic! At the Disco,1,10
+666,This is Gospel,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,1
+667,Miss Jackson,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,2
+668,Vegas Lights,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,3
+669,Girl That You Love,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,4
+670,Nicotine,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,5
+671,Girls / Girls / Boys,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,6
+672,Casual Affair,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,7
+673,Far Too Young to Die,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,8
+674,Collar Full,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,9
+675,The End of All Things,"Too Weird to Live, Too Rare to Die!",Panic! At the Disco,1,10
+676,Victorious,Death of a Bachelor,Panic! At the Disco,1,1
+677,Don't Threaten Me with a Good Time,Death of a Bachelor,Panic! At the Disco,1,2
+678,Hallelujah,Death of a Bachelor,Panic! At the Disco,1,3
+679,Emperor's New Clothes,Death of a Bachelor,Panic! At the Disco,1,4
+680,Death of a Bachelor,Death of a Bachelor,Panic! At the Disco,1,5
+681,Crazy=Genius,Death of a Bachelor,Panic! At the Disco,1,6
+682,LA Devotee,Death of a Bachelor,Panic! At the Disco,1,7
+683,Golden Days,Death of a Bachelor,Panic! At the Disco,1,8
+684,"The Good, the Bad and the Dirty",Death of a Bachelor,Panic! At the Disco,1,9
+685,House of Memories,Death of a Bachelor,Panic! At the Disco,1,10
+686,Impossible Year,Death of a Bachelor,Panic! At the Disco,1,11
+687,(Fuck A) Silver Lining,Pray for the Wicked,Panic! At the Disco,1,1
+688,Say Amen (Saturday Night),Pray for the Wicked,Panic! At the Disco,1,2
+689,"Hey Look Ma, I Made It",Pray for the Wicked,Panic! At the Disco,1,3
+690,High Hopes,Pray for the Wicked,Panic! At the Disco,1,4
+691,Roaring 20s,Pray for the Wicked,Panic! At the Disco,1,5
+692,Dancing's Not a Crime,Pray for the Wicked,Panic! At the Disco,1,6
+693,One of the Drunks,Pray for the Wicked,Panic! At the Disco,1,7
+694,The Overpass,Pray for the Wicked,Panic! At the Disco,1,8
+695,King of the Clouds,Pray for the Wicked,Panic! At the Disco,1,9
+696,Old Fashioned,Pray for the Wicked,Panic! At the Disco,1,10
+697,Dying in LA,Pray for the Wicked,Panic! At the Disco,1,11
+698,All We Know,All We Know Is Falling,Paramore,1,1
+699,Pressure,All We Know Is Falling,Paramore,1,2
+700,Emergency,All We Know Is Falling,Paramore,1,3
+701,Brighter,All We Know Is Falling,Paramore,1,4
+702,Here We Go Again,All We Know Is Falling,Paramore,1,5
+703,Never Let This Go,All We Know Is Falling,Paramore,1,6
+704,Whoa,All We Know Is Falling,Paramore,1,7
+705,Conspiracy,All We Know Is Falling,Paramore,1,8
+706,Franklin,All We Know Is Falling,Paramore,1,9
+707,My Heart,All We Know Is Falling,Paramore,1,10
+708,"For a Pessimist, I'm Pretty Optimistic",Riot!,Paramore,1,1
+709,That;s What You Get,Riot!,Paramore,1,2
+710,Hallelujah,Riot!,Paramore,1,3
+711,Misery Business,Riot!,Paramore,1,4
+712,When It Rains,Riot!,Paramore,1,5
+713,Let the Flames Begin,Riot!,Paramore,1,6
+714,Miracle,Riot!,Paramore,1,7
+715,Crushcrushcrush,Riot!,Paramore,1,8
+716,We Are Broken,Riot!,Paramore,1,9
+717,Fences,Riot!,Paramore,1,10
+718,Born for This,Riot!,Paramore,1,11
+719,Careful,Brand New Eyes,Paramore,1,1
+720,Ignorance,Brand New Eyes,Paramore,1,2
+721,Playing God,Brand New Eyes,Paramore,1,3
+722,Brick by Boring Brick,Brand New Eyes,Paramore,1,4
+723,Turn It Off,Brand New Eyes,Paramore,1,5
+724,The Only Exception,Brand New Eyes,Paramore,1,6
+725,Feeling Sorry,Brand New Eyes,Paramore,1,7
+726,Looking Up,Brand New Eyes,Paramore,1,8
+727,Where the Lines Overlap,Brand New Eyes,Paramore,1,9
+728,Misguided Ghosts,Brand New Eyes,Paramore,1,10
+729,All I Wanted,Brand New Eyes,Paramore,1,11
+730,Fast in My Car,Paramore,Paramore,1,1
+731,ow,Paramore,Paramore,1,2
+732,Grow Up,Paramore,Paramore,1,3
+733,Daydreaming,Paramore,Paramore,1,4
+734,Interlude: Moving On,Paramore,Paramore,1,5
+735,Ain't It Fun,Paramore,Paramore,1,6
+736,Part II,Paramore,Paramore,1,7
+737,Last Hope,Paramore,Paramore,1,8
+738,Still Into You,Paramore,Paramore,1,9
+739,Anklebiters,Paramore,Paramore,1,10
+740,Interlude: Holiday,Paramore,Paramore,1,11
+741,Proof,Paramore,Paramore,1,12
+742,Hate to See Your Heart Break,Paramore,Paramore,1,13
+743,(One of Those) Crazy Girls,Paramore,Paramore,1,14
+744,Interlude: I'm Not Angry Anymore,Paramore,Paramore,1,15
+745,Be Alone,Paramore,Paramore,1,16
+746,Future,Paramore,Paramore,1,17
+747,Hard Times,After Laughter,Paramore,1,1
+748,Rose-Colored Boy,After Laughter,Paramore,1,2
+749,Told You So,After Laughter,Paramore,1,3
+750,Forgiveness,After Laughter,Paramore,1,4
+751,Fake Happy,After Laughter,Paramore,1,5
+752,26,After Laughter,Paramore,1,6
+753,Pool,After Laughter,Paramore,1,7
+754,Grudges,After Laughter,Paramore,1,8
+755,Caught in the Middle,After Laughter,Paramore,1,9
+756,Idle Worship,After Laughter,Paramore,1,10
+757,No Friend,After Laughter,Paramore,1,11
+758,Tell Me How,After Laughter,Paramore,1,12
+759,Guns and Horses,Lights,Ellie Goulding,1,1
+760,Starry Eyed,Lights,Ellie Goulding,1,2
+761,This Love (Will Be Your Downfall),Lights,Ellie Goulding,1,3
+762,Under the Streets,Lights,Ellie Goulding,1,4
+763,The Writer,Lights,Ellie Goulding,1,5
+764,Every Time You Go,Lights,Ellie Goulding,1,6
+765,Wish I Stayed,Lights,Ellie Goulding,1,7
+766,Your Biggest Mistake,Lights,Ellie Goulding,1,8
+767,I'll Hold My Breath,Lights,Ellie Goulding,1,9
+768,Salt Skin,Lights,Ellie Goulding,1,10
+769,Don't Say a Word,Halcyon,Ellie Goulding,1,1
+770,My Blood,Halcyon,Ellie Goulding,1,2
+771,Anything Could Happen,Halcyon,Ellie Goulding,1,3
+772,Only You,Halcyon,Ellie Goulding,1,4
+773,Halcyon,Halcyon,Ellie Goulding,1,5
+774,Figure 8,Halcyon,Ellie Goulding,1,6
+775,Joy,Halcyon,Ellie Goulding,1,7
+776,Hanging On,Halcyon,Ellie Goulding,1,8
+777,Explosions,Halcyon,Ellie Goulding,1,9
+778,I Know You Care,Halcyon,Ellie Goulding,1,10
+779,Atlantis,Halcyon,Ellie Goulding,1,11
+780,Dead in the Water,Halcyon,Ellie Goulding,1,12
+781,I Need Your Love,Halcyon,Ellie Goulding,1,13
+782,Intro (Delirium),Delirium,Ellie Goulding,1,1
+783,Aftertaste,Delirium,Ellie Goulding,1,2
+784,Something in the Way You Move,Delirium,Ellie Goulding,1,3
+785,Keep On Dancin,Delirium,Ellie Goulding,1,4
+786,On My Mind,Delirium,Ellie Goulding,1,5
+787,Around U,Delirium,Ellie Goulding,1,6
+788,Codes,Delirium,Ellie Goulding,1,7
+789,Holding On for Life,Delirium,Ellie Goulding,1,8
+790,Love Me Like You Do,Delirium,Ellie Goulding,1,9
+791,Don't Need Nobody,Delirium,Ellie Goulding,1,10
+792,Don't Panic,Delirium,Ellie Goulding,1,11
+793,We Can't Move to This,Delirium,Ellie Goulding,1,12
+794,Army,Delirium,Ellie Goulding,1,13
+795,Lost and Found,Delirium,Ellie Goulding,1,14
+796,Devotion,Delirium,Ellie Goulding,1,15
+797,Scream It Out,Delirium,Ellie Goulding,1,16
+798,The A Team,+,Ed Sheeran,1,1
+799,Drunk,+,Ed Sheeran,1,2
+800,U.N.I.,+,Ed Sheeran,1,3
+801,Grade 8,+,Ed Sheeran,1,4
+802,Wake Me Up,+,Ed Sheeran,1,5
+803,Small Bump,+,Ed Sheeran,1,6
+804,This,+,Ed Sheeran,1,7
+805,The City,+,Ed Sheeran,1,8
+806,Lego House,+,Ed Sheeran,1,9
+807,"You Need Me, I Don't Need You",+,Ed Sheeran,1,10
+808,Kiss Me,+,Ed Sheeran,1,11
+809,Give Me Love,+,Ed Sheeran,1,12
+810,One,x,Ed Sheeran,1,1
+811,I'm A Mess,x,Ed Sheeran,1,2
+812,Sing,x,Ed Sheeran,1,3
+813,Don't,x,Ed Sheeran,1,4
+814,Nina,x,Ed Sheeran,1,5
+815,Photograph,x,Ed Sheeran,1,6
+816,Bloodstream,x,Ed Sheeran,1,7
+817,Tenerife Sea,x,Ed Sheeran,1,8
+818,Runaway,x,Ed Sheeran,1,9
+819,The Man,x,Ed Sheeran,1,10
+820,Thinking Out Loud,x,Ed Sheeran,1,11
+821,Afire Love,x,Ed Sheeran,1,12
+822,Eraser,÷,Ed Sheeran,1,1
+823,Castle on the Hill,÷,Ed Sheeran,1,2
+824,Dive,÷,Ed Sheeran,1,3
+825,Shape of You,÷,Ed Sheeran,1,4
+826,Perfect,÷,Ed Sheeran,1,5
+827,Galway Girl,÷,Ed Sheeran,1,6
+828,Happier,÷,Ed Sheeran,1,7
+829,New Man,÷,Ed Sheeran,1,8
+830,Hearts Don't Break Around Here,÷,Ed Sheeran,1,9
+831,What Do I Know?,÷,Ed Sheeran,1,10
+832,How Would You Feel (Paean),÷,Ed Sheeran,1,11
+833,Supermarket Flowers,÷,Ed Sheeran,1,12
+834,Beautiful People,No.6 Collaborations Project,Ed Sheeran,1,1
+835,South of the Border,No.6 Collaborations Project,Ed Sheeran,1,2
+836,Cross Me,No.6 Collaborations Project,Ed Sheeran,1,3
+837,Take Me Back to London,No.6 Collaborations Project,Ed Sheeran,1,4
+838,Best Part of Me,No.6 Collaborations Project,Ed Sheeran,1,5
+839,I Don't Care,No.6 Collaborations Project,Ed Sheeran,1,6
+840,Antisocial,No.6 Collaborations Project,Ed Sheeran,1,7
+841,Remember the Name,No.6 Collaborations Project,Ed Sheeran,1,8
+842,Feels,No.6 Collaborations Project,Ed Sheeran,1,9
+843,Put It All On Me,No.6 Collaborations Project,Ed Sheeran,1,10
+844,Nothing On You,No.6 Collaborations Project,Ed Sheeran,1,11
+845,I Don't Want Your Money,No.6 Collaborations Project,Ed Sheeran,1,12
+846,1000 Nights,No.6 Collaborations Project,Ed Sheeran,1,13
+847,Way to Break My Heart,No.6 Collaborations Project,Ed Sheeran,1,14
+848,Blow,No.6 Collaborations Project,Ed Sheeran,1,15
