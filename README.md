@@ -1,5 +1,4 @@
 # holy-guacamole
-![Heart-logo](https://github.com/annmai/holy-guacamole/blob/master/WebContent/img/heart-volume.png)
 
 Music e-commerce application using Java Servlets, HTML, CSS, Javascript, MySQL
 
