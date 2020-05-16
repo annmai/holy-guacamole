@@ -1,6 +1,6 @@
 # holy-guacamole
 
-Music e-commerce application using Java Servlets, HTML, CSS, Javascript, MySQL
+Music e-commerce web application using Java Servlets, HTML, CSS, JavaScript, MySQL
 
 ![screenshot](https://github.com/annmai/holy-guacamole/blob/master/WebContent/img/frontpageshot.png)
 
